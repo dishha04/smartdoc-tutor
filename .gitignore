@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+.env
+venv/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# React / Vite
+dist/
+build/
+
+# Logs
+logs/
+*.log
+
+# Uploads
+uploads/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Coverage
+coverage/
+
+# Misc
+*.sqlite3
+vector_stores/
+
+# Frontend env files (never commit real env values)
+frontend/.env
+frontend/.env.local
+frontend/.env.production
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# Backend env
+backend/.env
